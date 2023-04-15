@@ -3,8 +3,7 @@ import React, { useState } from "react";
 import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Dispatch } from "redux";
-import { RootState, increment } from ".";
-import { decrement } from "./reduxToolkit";
+import { RootState, increment, decrement } from ".";
 
 interface IProfile {
   name: string;
